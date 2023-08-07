@@ -1,4 +1,4 @@
-# My WEBSITE 
+# MY WEBSITE 
 
 A short introduction for the top of your main page
 
