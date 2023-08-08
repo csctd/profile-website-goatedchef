@@ -6,6 +6,12 @@ This is is a template for a resume/ personal portfolio, built with Sphinx! Based
 This template is designed for use in the URI CS TD SSP. 
 
 
+## Design
+- menu on top that have all tools needed to go to another page
+- having a `table of contents` in my describe self page
+- using all h1's list to make text visable
+- having a `accessiblity button`
+
 ## Tips for Updating the Content of this site
 
 - sidebar variables are defined in `info-.yml` 
