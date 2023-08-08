@@ -6,6 +6,10 @@ This is is a template for a resume/ personal portfolio, built with Sphinx! Based
 This template is designed for use in the URI CS TD SSP. 
 
 
+## accessbility 
+- having a button to switch contrast
+- having a button that controls all of the accessbilitys
+
 ## Design
 - menu on top that have all tools needed to go to another page
 - having a `table of contents` in my describe self page
