@@ -9,6 +9,9 @@ This template is designed for use in the URI CS TD SSP.
 ## accessbility 
 - having a button to switch contrast
 - having a button that controls all of the accessbilitys
+- using WAVE web to check accessbility
+- having good enough sized fonts for the people who have trouble seeing
+- sematrical information 
 
 ## Design
 - menu on top that have all tools needed to go to another page
