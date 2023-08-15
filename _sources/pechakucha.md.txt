@@ -5,3 +5,9 @@
 
 ![alt text](_static/img/images.jpg)
 
+
+```{card}
+:class-cards: slide
+
+![alt text](path/to/img)
+```
