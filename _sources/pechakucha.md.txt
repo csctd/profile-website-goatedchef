@@ -1,7 +1,12 @@
-#bruh
+# bruh
+
+<div id="slideshow">
 
 ```{include} _static/play_pause.html
 ```
+
+
+````{card-carousel} 2
 
 ```{card} 
 :class-card: slide
@@ -23,3 +28,6 @@
 ![alt text](_static/img/images.jpg)
 ```
 
+
+````
+</div>
