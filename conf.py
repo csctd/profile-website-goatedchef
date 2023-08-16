@@ -1,7 +1,7 @@
 # -- Project information -----------------------------------------------------
 
-project = 'Site Title'
-copyright = '2022, Your name'
+project = 'Bruh Monkey Productions'
+copyright = '2022, Luis Mejia'
 author = 'Your Name'
 
 

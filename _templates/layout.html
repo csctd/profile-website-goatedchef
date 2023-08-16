@@ -1,8 +1,10 @@
 {% extends '!layout.html' %}
 
+
 {% block footer %}
 <!--  the stuff above here makes your pages work regularly -->
 <!--  the stuff below here puts javascript on all of the pages -->
+
 
 <script>
     // this section is javascript, not HTML evn though it's in the HTML file
@@ -31,7 +33,9 @@
         }
         slideIndex++;
         if (slideIndex > slides.length) { slideIndex = 1 }
+
         slides[slideIndex - 1].style.display = "block";
+
     }
 
     // show all again if not playing
@@ -43,6 +47,7 @@
             slides[i].style.display = "block";
         }
     }
+
 
 //  make full screen mode
     function openFullscreen() {
@@ -77,6 +82,7 @@
         showAll();
         }
 
+
     // play without fullscreen
     function playSlideShow() {
         
@@ -89,5 +95,6 @@
             clearInterval(slideInterval);
             showAll();
         }
+
 </script>
 {% endblock %}
