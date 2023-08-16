@@ -12,12 +12,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="pechakucha/" />
 <meta property="og:site_name" content="Bruh Monkey Productions" />
-<meta property="og:description" content="#bruh" />
+<meta property="og:description" content="#bruh alt text alt text alt text" />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_pechakucha_0be8163e.png" />
-<meta property="og:image:alt" content="#bruh" />
-<meta name="description" content="#bruh" />
+<meta property="og:image" content="/_images/social_previews/summary_pechakucha_b7ddb27b.png" />
+<meta property="og:image:alt" content="#bruh alt text alt text alt text" />
+<meta name="description" content="#bruh alt text alt text alt text" />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>&lt;no title&gt; &#8212; Bruh Monkey Productions</title>
@@ -364,31 +364,27 @@ document.write(`
                 <article class="bd-article" role="main">
                   
 <p>#bruh</p>
-<div class="highlight-![alt notranslate"><div class="highlight"><pre><span></span>
-
-![alt text](_static/img/images.jpg)
-
-
-
-{card}
-:::{card}
-:class-card: slide
-
-
-![steps to make an issue](_static/img/issue.png)
-+++ 
-
-and a footer only on the site, not in full screen that is light
-:class-card: slide
-
-![pydata theme variables](_static/img/pydata.png)
-
-+++
-more footers
-:class-card: slide, blue
-
-![annotated repo](_static/img/repo.png)
-</pre></div>
+<!-- a container for the buttons -->
+<div class="controls">
+<!-- the btn,  btn-dark, and btn-info classes come from Bootstrap-->
+<input class='btn btn-dark' id="pause" type="button" value="Pause" onclick="pauseSlideShow()" />
+<input class='btn btn-info' id="play" type="button" value="Present" onclick="playSlideShow()" />
+<!-- the fucntions called by buttons are defined in layout.html -->
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="alt text" src="../_images/Luffy.jpg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="alt text" src="../_images/images.jpg" /></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="alt text" src="../_images/images.jpg" /></p>
+</div>
 </div>
 
 <div class="section ablog__blog_comments">
@@ -460,7 +456,10 @@ more footers
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
   <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
 <script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
- 
+
+<!--  the stuff above here makes your pages work regularly -->
+<!--  the stuff below here puts javascript on all of the pages -->
+
 
 <script>
     // this section is javascript, not HTML evn though it's in the HTML file
@@ -489,14 +488,9 @@ more footers
         }
         slideIndex++;
         if (slideIndex > slides.length) { slideIndex = 1 }
-        slides[slideIndex - 1].style.display = "inline";
-        // for (i = 0; i < dots.length; i++) {
-        //     dots[i].className = dots[i].className.replace(" active", "");
-        // }
-        // slides[slideIndex - 1].style.display = "block";
-        // slides[slideIndex-1].setAttribute("style","display:block");
-        // dots[slideIndex - 1].className += " active";
-        // setTimeout(showSlides, slideTime); // Change image every 2 seconds
+
+        slides[slideIndex - 1].style.display = "block";
+
     }
 
     // show all again if not playing
@@ -542,6 +536,21 @@ more footers
         clearInterval(slideInterval);
         showAll();
         }
+
+
+    // play without fullscreen
+    function playSlideShow() {
+        
+            showSlides()
+            slideInterval = setInterval(showSlides, slideTime);
+        }
+
+    function pauseSlideShow() {
+        
+            clearInterval(slideInterval);
+            showAll();
+        }
+
 </script>
 
   </body>

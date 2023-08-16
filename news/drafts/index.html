@@ -393,7 +393,10 @@ document.write(`
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
   <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
 <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
- 
+
+<!--  the stuff above here makes your pages work regularly -->
+<!--  the stuff below here puts javascript on all of the pages -->
+
 
 <script>
     // this section is javascript, not HTML evn though it's in the HTML file
@@ -422,14 +425,9 @@ document.write(`
         }
         slideIndex++;
         if (slideIndex > slides.length) { slideIndex = 1 }
-        slides[slideIndex - 1].style.display = "inline";
-        // for (i = 0; i < dots.length; i++) {
-        //     dots[i].className = dots[i].className.replace(" active", "");
-        // }
-        // slides[slideIndex - 1].style.display = "block";
-        // slides[slideIndex-1].setAttribute("style","display:block");
-        // dots[slideIndex - 1].className += " active";
-        // setTimeout(showSlides, slideTime); // Change image every 2 seconds
+
+        slides[slideIndex - 1].style.display = "block";
+
     }
 
     // show all again if not playing
@@ -475,6 +473,21 @@ document.write(`
         clearInterval(slideInterval);
         showAll();
         }
+
+
+    // play without fullscreen
+    function playSlideShow() {
+        
+            showSlides()
+            slideInterval = setInterval(showSlides, slideTime);
+        }
+
+    function pauseSlideShow() {
+        
+            clearInterval(slideInterval);
+            showAll();
+        }
+
 </script>
 
   </body>
