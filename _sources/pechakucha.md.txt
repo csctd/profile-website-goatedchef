@@ -6,7 +6,8 @@
 ![alt text](_static/img/images.jpg)
 
 
-{card}
+``{card}
 :class-cards: slide
 
 ![alt text](_static/img/images.jpg)
+``
