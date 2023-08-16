@@ -1,6 +1,6 @@
-# Bruh Monkey Productions  
+# Bruh Monkey
 
-Bruh Monkey Productions is a fabulous production service where you get BRUH
+Hello my name is Luis and the production of bruh is in full affect
 
 
 More content you want on your page
@@ -8,10 +8,10 @@ More content you want on your page
 
 
 use this to make a menu when you add more pages -->
-{toctree}
+```{toctree}
 :maxdepth: 2
 :hidden:
 
 pechakucha
-
+```
 
