@@ -7,6 +7,6 @@
 
 
 {card}
-class-cards: slide
+:class-cards: slide
 
 ![alt text](_static/img/images.jpg)
