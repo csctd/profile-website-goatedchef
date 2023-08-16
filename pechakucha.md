@@ -11,8 +11,8 @@
 :::{card}
 :class-cards: slide
 
-![a pic of me](_static/img/profile.png)
+![a pic of me](_static/img/goofy_ah_dog.jpg)
 ::::class-cards: slide
 
-![alt text](path/to/img)
+![alt text](_static/img/Luffy.jpg)
 ```
