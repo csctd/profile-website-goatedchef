@@ -6,13 +6,22 @@
 ![alt text](_static/img/images.jpg)
 
 
-```md
+
 {card}
 :::{card}
-:class-cards: slide
+:class-card: slide
 
-![a pic of me](_static/img/goofy_ah_dog.jpg)
-::::class-cards: slide
 
-![alt text](_static/img/Luffy.jpg)
-```
+![steps to make an issue](_static/img/issue.png)
++++ 
+
+and a footer only on the site, not in full screen that is light
+:class-card: slide
+
+![pydata theme variables](_static/img/pydata.png)
+
++++
+more footers
+:class-card: slide, blue
+
+![annotated repo](_static/img/repo.png)
