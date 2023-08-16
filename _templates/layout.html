@@ -1,6 +1,10 @@
 {% extends '!layout.html' %}
 
-{% block footer %} 
+
+{% block footer %}
+<!--  the stuff above here makes your pages work regularly -->
+<!--  the stuff below here puts javascript on all of the pages -->
+
 
 <script>
     // this section is javascript, not HTML evn though it's in the HTML file
@@ -29,14 +33,9 @@
         }
         slideIndex++;
         if (slideIndex > slides.length) { slideIndex = 1 }
-        slides[slideIndex - 1].style.display = "inline";
-        // for (i = 0; i < dots.length; i++) {
-        //     dots[i].className = dots[i].className.replace(" active", "");
-        // }
-        // slides[slideIndex - 1].style.display = "block";
-        // slides[slideIndex-1].setAttribute("style","display:block");
-        // dots[slideIndex - 1].className += " active";
-        // setTimeout(showSlides, slideTime); // Change image every 2 seconds
+
+        slides[slideIndex - 1].style.display = "block";
+
     }
 
     // show all again if not playing
@@ -82,5 +81,20 @@
         clearInterval(slideInterval);
         showAll();
         }
+
+
+    // play without fullscreen
+    function playSlideShow() {
+        
+            showSlides()
+            slideInterval = setInterval(showSlides, slideTime);
+        }
+
+    function pauseSlideShow() {
+        
+            clearInterval(slideInterval);
+            showAll();
+        }
+
 </script>
 {% endblock %}
