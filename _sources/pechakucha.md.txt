@@ -1,4 +1,5 @@
-# bruh
+
+<title>Bruh Monkey &#8212; Bruh Monkey Productions</title>
 
 <div id="slideshow">
 
