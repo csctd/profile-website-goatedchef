@@ -1,5 +1,4 @@
 
-#bruh
 
 <div id="slideshow">
 
