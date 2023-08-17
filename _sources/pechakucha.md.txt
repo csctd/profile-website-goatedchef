@@ -1,8 +1,8 @@
-
+# TD
 
 <div id="slideshow">
-```
-```{include} _static/play_pause.html
+
+```{include} _static/buttons.html
 ```
 
 
