@@ -26,7 +26,46 @@
 ```{card} 
 :class-card: slide
 
-![alt text](_static/img/images.jpg)
+![alt text](_static/img/building.jpg.jpg)
+```
+
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/dorm.jpg.jpg)
+```
+
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/eng.jpg.jpg)
+```
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/flowers.jpg.jpg)
+```
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/grub.jpg.jpg)
+```
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/outdoor.jpg.jpg)
+```
+
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/pollo.jpg.jpg)
+```
+
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/ucs.jpg.JPG)
 ```
 
 
