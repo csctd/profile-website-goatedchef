@@ -11,7 +11,7 @@
 
 ```{card} 
 :class-card: slide
-![alt text](_static/img/Luffy.jpg) 
+![Hiii this is gear 5th](_static/img/Luffy.jpg) 
 ```
 
 
